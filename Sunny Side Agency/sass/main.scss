@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$dark-desaturated-cyan: #2e7766;
+$dark-blue: hsl(198, 62%, 26%);
+$dark-moderate-cyan: hsl(168, 34%, 41%);
+
+$light-cyan: #90d4c5;
+
+$very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$very-dark-grayish-blue: hsl(213, 9%, 39%);
+$dark-grayish-blue: hsl(232, 10%, 55%);
+$grayish-blue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+html,
+body {
+  overflow-x: hidden;
+
+  font-size: 18px;
+  /* font-family: 'Barlow'; */
+  font-family: 'Barlow', serif;
+  /* font-family: 'Fraunces', serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+._text-dark-mod-cyan {
+  color: $dark-moderate-cyan !important;
+}
+
+._text-dark-des-cyan {
+  color: $dark-desaturated-cyan !important;
+}
+
+._text-fraunces {
+  font-family: 'Fraunces', serif !important;
+}
+
+._text-barlow {
+  font-family: 'Barlow';
+}
+
+._img-responsive {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+._text-spacing {
+  letter-spacing: 0.2rem;
+}
+
+._bg-light-cyan {
+  background-color: $light-cyan !important;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+}
+
+._nav-contact {
+  border-radius: 50px;
+  color: rgb(61, 61, 61) !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+._text-title {
+  font-family: 'Fraunces', serif !important;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+._bottom-line {
+  position: relative;
+}
+
+._yellow-line::before {
+  position: absolute;
+  content: '';
+  background: $yellow;
+  opacity: 0.5;
+  width: calc(100% + 10px);
+  height: 7px;
+  border-radius: 10px;
+  bottom: -1px;
+  left: -5px;
+  z-index: -10;
+}
+
+._yellow-line:hover::before,
+._red-line:hover::before {
+  opacity: 1 !important;
+}
+
+._red-line::before {
+  position: absolute;
+  content: '';
+  background: $soft-red;
+  opacity: 0.5;
+  width: calc(100% + 20px);
+  height: 7px;
+  border-radius: 10px;
+  bottom: -1px;
+  left: -10px;
+  z-index: -10;
+}
+
+._container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  min-height: 600px;
+  background: url('../images/mobile/image-header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Fraunces';
+  font-size: 2.7rem;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+#transform,
+#standout {
+  overflow-x: hidden;
+}
+
+#service {
+  ._service-card {
+    position: relative;
+  }
+
+  ._service-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.5rem;
+  }
+}
+
+#footer {
+  a {
+    color: $dark-desaturated-cyan;
+    i {
+      padding: 0 15px;
+    }
+  }
+}
+
+.footerContainer {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background: url('../images/desktop/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #service {
+    ._service-text {
+      position: absolute;
+      bottom: 1rem;
+      width: 75%;
+      left: 0;
+      right: 0;
+    }
+    ._text-title {
+      margin: 0;
+      padding: 0;
+      font-size: 1.4rem;
+    }
+  }
+
+  .footerContainer div a {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    position: relative;
+    top: 40px;
+    background: #fff;
+    padding: 2rem 7rem;
+    .nav-item {
+      .nav-link {
+        color: rgb(136, 136, 136) !important;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      ._nav-contact {
+        background: $yellow !important;
+        color: rgb(61, 61, 61) !important;
+      }
+    }
+  }
+
+  .navbar-nav::before {
+    content: '';
+    position: absolute;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    background: #fff;
+    top: -40px;
+    right: 0;
+    height: 45px;
+    width: 45px;
+  }
+}

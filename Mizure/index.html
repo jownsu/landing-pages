@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top py-4">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="img/mlogo.png" alt="Mizuxe" height="50" width="50" />
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#author" class="nav-link">Meet The Author</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase Section -->
+    <section id="showcase">
+      <div class="primary-overlay text-white d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-1">Do What You Dream Of...</h1>
+              <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, eum!</p>
+              <a href="#" class="btn btn-outline-light btn-lg"> Read More </a>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+              <img src="img/book.png" alt="book" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Showcase Section -->
+
+    <!-- Newsletter Section -->
+    <div id="newsletter" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <input type="text" class="form-control form-control-lg" placeholder="Enter Name" />
+          </div>
+          <div class="col-md-4">
+            <input type="text" class="form-control form-control-lg" placeholder="Enter Email" />
+          </div>
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-lg btn-primary w-100 text-white">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Newsletter Section -->
+
+    <!-- Box Section -->
+    <div id="box" class="py-5">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="border border-2 border-primary text-center p-4">
+              <h3 class="text-primary">Be Better</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam suscipit sit, quod quisquam
+                architecto?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="border border-2 border-primary text-center p-4 text-white bg-primary">
+              <h3>Be Smarter</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam suscipit sit, quod quisquam
+                architecto?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="border border-2 border-primary text-center p-4">
+              <h3 class="text-primary">Be Faster</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam suscipit sit, quod quisquam
+                architecto?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="border border-2 border-primary text-center p-4 text-white bg-primary">
+              <h3>Be Stronger</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam suscipit sit, quod quisquam
+                architecto?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Box Section -->
+
+    <!-- About / Why Section -->
+    <div id="about" class="py-5 bg-light text-center">
+      <div class="container">
+        <div class="w-75 mx-auto mb-5 border-bottom">
+          <h1 class="text-primary pb-3">Why This Book?</h1>
+          <p class="lead pb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam porro facere aperiam hic quibusdam omnis
+            voluptate dolorum ipsam ipsum animi?
+          </p>
+        </div>
+        <!-- Accordion -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button d-block text-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <i class="bi bi-arrow-down-circle-fill me-3"></i>
+                Get Inspired
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nisi inventore, suscipit
+                voluptate a quam aliquid, ipsa at itaque aperiam corporis rem, blanditiis tempore iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button d-block text-center collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <i class="bi bi-arrow-down-circle-fill me-3"></i>
+                Gain The Knowledge
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nisi inventore, suscipit
+                voluptate a quam aliquid, ipsa at itaque aperiam corporis rem, blanditiis tempore iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button d-block text-center collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <i class="bi bi-arrow-down-circle-fill me-3"></i>
+                Open Your Mind
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nisi inventore, suscipit
+                voluptate a quam aliquid, ipsa at itaque aperiam corporis rem, blanditiis tempore iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About / Why Section -->
+
+    <!-- Authors Section-->
+    <div id="author" class="py-5 text-center">
+      <div class="container">
+        <div class="w-75 border-bottom mx-auto mb-5">
+          <h1 class="text-primary">Meet The Authors</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ratione explicabo, molestias ipsum eveniet
+            hic?
+          </p>
+        </div>
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person1.jpg" alt="person" class="rounded-circle w-50 mb-3" />
+                <h3>Susan Williams</h3>
+                <h5 class="text-secondary">Lead Writer</h5>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium ullam, iste odit porro ipsam
+                  hic repudiandae est corporis et.
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <div class="d-flex justify-content-evenly">
+                  <a href="https://facebook.com">
+                    <i class="bi bi-facebook fs-5"></i>
+                  </a>
+                  <a href="https://twitter.com">
+                    <i class="bi bi-twitter fs-5"></i>
+                  </a>
+                  <a href="https://instagram.com">
+                    <i class="bi bi-instagram fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person2.jpg" alt="person" class="rounded-circle w-50 mb-3" />
+                <h3>Grace Smith</h3>
+                <h5 class="text-secondary">Co-Writer</h5>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium ullam, iste odit porro ipsam
+                  hic repudiandae est corporis et.
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <div class="d-flex justify-content-evenly">
+                  <a href="https://facebook.com">
+                    <i class="bi bi-facebook fs-5"></i>
+                  </a>
+                  <a href="https://twitter.com">
+                    <i class="bi bi-twitter fs-5"></i>
+                  </a>
+                  <a href="https://instagram.com">
+                    <i class="bi bi-instagram fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person3.jpg" alt="person" class="rounded-circle w-50 mb-3" />
+                <h3>John Doe</h3>
+                <h5 class="text-secondary">Editor</h5>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium ullam, iste odit porro ipsam
+                  hic repudiandae est corporis et.
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <div class="d-flex justify-content-evenly">
+                  <a href="https://facebook.com">
+                    <i class="bi bi-facebook fs-5"></i>
+                  </a>
+                  <a href="https://twitter.com">
+                    <i class="bi bi-twitter fs-5"></i>
+                  </a>
+                  <a href="https://instagram.com">
+                    <i class="bi bi-instagram fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person4.jpg" alt="person" class="rounded-circle w-50 mb-3" />
+                <h3>Kevin Swanson</h3>
+                <h5 class="text-secondary">Designer</h5>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium ullam, iste odit porro ipsam
+                  hic repudiandae est corporis et.
+                </p>
+              </div>
+              <div class="card-footer py-4">
+                <div class="d-flex justify-content-evenly">
+                  <a href="https://facebook.com">
+                    <i class="bi bi-facebook fs-5"></i>
+                  </a>
+                  <a href="https://twitter.com">
+                    <i class="bi bi-twitter fs-5"></i>
+                  </a>
+                  <a href="https://instagram.com">
+                    <i class="bi bi-instagram fs-5"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Authors Section-->
+
+    <!-- Contact Section -->
+    <div id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-9">
+            <form>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                <input type="text" class="form-control form-control-lg" placeholder="Name" />
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                <input type="text" class="form-control form-control-lg" placeholder="Email" />
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text"><i class="bi bi-pencil-fill"></i></span>
+                <textarea type="text" class="form-control form-control-lg" placeholder="Message" rows="5"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 text-white">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-3">
+            <img src="img/mlogo.png" alt="logo" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="bg-primary text-white text-end py-5 px-5">
+      <p class="lead me-5">Copyright © 2022</p>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

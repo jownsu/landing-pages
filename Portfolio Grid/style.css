@@ -1,0 +1,12 @@
+#main-header ._port-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-header ._port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

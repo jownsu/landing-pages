@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Glozzom</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"> Glozzom </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="blogs.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Showcase Section -->
+    <section id="showcase">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item _carousel-one active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-end mb-5">
+                <h1 class="display-1">Heading One</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aspernatur. Fugiat numquam quod soluta
+                  tenetur.
+                </p>
+                <button class="btn btn-lg btn-danger">Sign Up Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item _carousel-two">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                <h1 class="display-1">Heading Two</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aspernatur. Fugiat numquam quod soluta
+                  tenetur.
+                </p>
+                <button class="btn btn-lg btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item _carousel-three">
+            <div class="carousel-caption d-none d-sm-block text-end mb-5">
+              <h1 class="display-1">Heading Three</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aspernatur. Fugiat numquam quod soluta
+                tenetur.
+              </p>
+              <button class="btn btn-lg btn-success">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End Showcase Carousel -->
+
+    <!-- Icon Section -->
+    <section id="icon" class="py-5">
+      <div class="container">
+        <div class="row g-2 text-center">
+          <div class="col-md-4">
+            <i class="bi bi-gear-fill"></i>
+            <h3>Turning Gears</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit sapiente quibusdam itaque nam aperiam
+              saepe.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-cloudy-fill"></i>
+            <h3>Sending Data</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit sapiente quibusdam itaque nam aperiam
+              saepe.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-cart-plus-fill"></i>
+            <h3>Making Money</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit sapiente quibusdam itaque nam aperiam
+              saepe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Icon Section -->
+
+    <!-- Ready Section -->
+    <section id="ready" class="text-white text-center">
+      <div class="_dark-overlay align-items-center d-flex">
+        <div class="container">
+          <h1>Are You Ready To Get Started</h1>
+          <p class="d-none d-md-block">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquam iste quidem quod placeat vel?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Ready Section -->
+
+    <!-- Laptop Section -->
+    <section id="laptop" class="py-5">
+      <div class="container">
+        <div class="row g-3 align-items-center">
+          <div class="col-md-6">
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim voluptate quas culpa dolor? Dicta sint
+              voluptas tenetur nobis doloremque eaque suscipit veniam quae mollitia ipsum?
+            </p>
+            <a href="#" class="btn btn-outline-danger btn-lg">Learn More</a>
+          </div>
+          <div class="col-md-6"><img src="./img/laptop.png" alt="laptop" class="img-fluid" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Laptop Section -->
+
+    <!-- Video Section -->
+    <section id="video" class="py-5 text-white text-center">
+      <div class="_dark-overlay d-flex align-items-center">
+        <div class="container">
+          <a
+            href="#"
+            class="video text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/1HVv2saWOl0"
+            ><i class="bi bi-play-fill"></i
+          ></a>
+
+          <h1>See What We Do</h1>
+        </div>
+      </div>
+    </section>
+    <!-- End Video Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 text-center">
+      <div class="container">
+        <h1>Photo Gallery</h1>
+        <p>check out our photos</p>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal">
+              <img src="https://source.unsplash.com/random/501x501" alt="image1" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal">
+              <img src="https://source.unsplash.com/random/502x502" alt="image1" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal">
+              <img src="https://source.unsplash.com/random/503x503" alt="image1" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal">
+              <img src="https://source.unsplash.com/random/504x504" alt="image1" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal">
+              <img src="https://source.unsplash.com/random/505x505" alt="image1" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#galleryModal">
+              <img src="https://source.unsplash.com/random/506x506" alt="image1" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="py-5 bg-dark text-white text-center">
+      <div class="container">
+        <h1>Sign Up For Our Newsletter</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur dicta suscipit blanditiis ratione
+          mollitia sequi adipisci aliquam temporibus debitis.
+        </p>
+        <form>
+          <div class="row w-50 mx-auto g-1">
+            <div class="col-md-5">
+              <input type="text" class="form-control" placeholder="Enter Name" />
+            </div>
+            <div class="col-md-5">
+              <input type="text" class="form-control" placeholder="Enter Email" />
+            </div>
+            <div class="col-md-2">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Newsletter SEction -->
+
+    <footer class="bg-black text-center text-white py-4">
+      <div class="container">
+        <p>Copyright © 2022 Glozzom</p>
+      </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body text-end">
+            <button class="btn btn-outline-danger btn-sm mb-3" data-bs-dismiss="modal">
+              <i class="bi bi-x-lg"></i>
+            </button>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/1HVv2saWOl0"> </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="galleryModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-3">
+          <img src="https://source.unsplash.com/random/500x500" alt="image1" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!-- End MOdals -->
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

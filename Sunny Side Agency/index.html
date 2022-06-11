@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/6fcb53b6d1.js" crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <div class="_container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand text-white"> <h1>sunnyside</h1></a>
+          <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </div>
+
+          <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link text-white-50">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link text-white-50">Services</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link text-white-50">Projects</a>
+              </li>
+              <li class="nav-item px-3">
+                <a href="#" class="nav-link px-3 bg-white _text-fraunces _nav-contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Header Section -->
+      <header id="header" class="">
+        <div class="container">
+          <h1 class="text-white m-md-3">WE ARE CREATIVES</h1>
+          <img src="images/icon-arrow-down.svg" alt="arrowdown" class="mb-md-5" />
+        </div>
+      </header>
+      <!-- End Header Section -->
+
+      <!-- Transform Section -->
+      <section id="transform">
+        <div class="row text-center text-md-start">
+          <div class="col-md-6 order-md-1 g-0">
+            <picture>
+              <source srcset="images/desktop/image-transform.jpg" media="(min-width: 768px)" class="_img-responsive" />
+              <img srcset="images/mobile/image-transform.jpg" class="_img-responsive" />
+            </picture>
+          </div>
+          <div class="col-md-6 order-md-0 align-self-center">
+            <div class="container py-5 px-lg-5">
+              <h1 class="_text-title">Transform your brand</h1>
+              <p class="text-muted py-3">
+                We are a full-service creative agency specializing in helping brands grow fast. Engage your clients
+                through compelling visuals that do most of the marketing you.
+              </p>
+
+              <a href="#" class="_text-fraunces _bottom-line _yellow-line text-dark">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Transform Section -->
+
+      <!-- Standout Section -->
+      <section id="standout">
+        <div class="row text-center text-md-start">
+          <div class="col-md-6 g-0">
+            <picture>
+              <source srcset="images/desktop/image-stand-out.jpg" media="(min-width: 768px)" class="_img-responsive" />
+              <img srcset="images/mobile/image-stand-out.jpg" class="_img-responsive" />
+            </picture>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <div class="container py-5 px-lg-5">
+              <h1 class="_text-title">Stand out to the right audience</h1>
+              <p class="text-muted py-3">
+                Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+                we’ll build and extend your brand in digital places.
+              </p>
+              <a href="#" class="_text-fraunces _bottom-line _red-line text-dark">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Standout Section -->
+
+      <!-- Service Section -->
+      <section id="service">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="_service-card">
+              <picture>
+                <source
+                  srcset="images/desktop/image-graphic-design.jpg"
+                  media="(min-width: 768px)"
+                  class="_img-responsive"
+                />
+                <img srcset="images/mobile/image-graphic-design.jpg" class="_img-responsive" />
+              </picture>
+              <div class="container _service-text text-center _text-dark-des-cyan px-3 px-lg-0">
+                <p class="_text-title">Graphic Design</p>
+                <p>
+                  Graphic design Great design makes you memorable. We deliver artwork that underscores your brand
+                  message and captures potential clients’ attention.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="_service-card">
+              <picture>
+                <source
+                  srcset="images/desktop/image-photography.jpg"
+                  media="(min-width: 768px)"
+                  class="_img-responsive"
+                />
+                <img srcset="images/mobile/image-photography.jpg" class="_img-responsive" />
+              </picture>
+              <div class="container _service-text text-center _text-dark-des-cyan px-3 px-lg-0">
+                <p class="_text-title">Photography</p>
+                <p>
+                  Increase your credibility by getting the most stunning, high-quality photos that improve your business
+                  image.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Service Section -->
+
+      <!-- Testimonial Section -->
+      <section id="testimonial" class="py-5 text-center">
+        <div class="container px-4">
+          <h6 class="_text-fraunces _text-spacing text-black-50 mb-5">CLIENT TESTIMONIALS</h6>
+          <div class="row g-5 g-md-2">
+            <div class="col-md-4">
+              <img src="images/image-emily.jpg" alt="emily" class="rounded-circle mb-4" height="75" width="75" />
+              <p class="mb-3">
+                We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+                always hit.
+              </p>
+              <p class="_text-fraunces fs-5 mb-0">Emily R.</p>
+              <small class="text-black-50">Marketing Director</small>
+            </div>
+            <div class="col-md-4">
+              <img src="images/image-thomas.jpg" alt="thomas" class="rounded-circle mb-4" height="75" width="75" />
+              <p class="mb-3">
+                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+                enjoyable experience.
+              </p>
+              <p class="_text-fraunces fs-5 mb-0">Thomas S.</p>
+              <small class="text-black-50">Chief Operating Officer</small>
+            </div>
+            <div class="col-md-4">
+              <img src="images/image-jennie.jpg" alt="jennie" class="rounded-circle mb-4" height="75" width="75" />
+              <p class="mb-3">
+                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+              </p>
+              <p class="_text-fraunces fs-5 mb-0">Jennie F.</p>
+              <small class="text-black-50">Business Owner</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonial Section -->
+
+      <!-- Projects Section -->
+      <section id="project">
+        <div class="row g-0">
+          <div class="col-6 col-md-3">
+            <img src="images/mobile/image-gallery-milkbottles.jpg" alt="project-img" class="_img-responsive" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/mobile/image-gallery-orange.jpg" alt="project-img" class="_img-responsive" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/mobile/image-gallery-cone.jpg" alt="project-img" class="_img-responsive" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="project-img" class="_img-responsive" />
+          </div>
+        </div>
+      </section>
+      <!-- End Projects Section -->
+
+      <!-- Footer Section -->
+      <section id="footer" class="py-5 _bg-light-cyan text-center _text-dark-des-cyan">
+        <div class="footerContainer">
+          <h1 class="_text-barlow mb-4" style="font-weight: 800">sunnyside</h1>
+          <div class="d-flex justify-content-around mb-5">
+            <a href="#" class="text-decoration-none">About</a>
+            <a href="#" class="text-decoration-none">Services</a>
+            <a href="#" class="text-decoration-none">Projects</a>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <a href="#"><i class="fa fa-facebook fs-3"></i></a>
+            <a href="#"><i class="fa fa-instagram fs-3"></i></a>
+            <a href="#"><i class="fa fa-twitter fs-3"></i></a>
+            <a href="#"><i class="fa fa-pinterest fs-3"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- End Footer Section -->
+
+      <!--     
+        About Services Projects Contact -->
+
+      <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="#">Your Name Here</a>.
+    </div> -->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
