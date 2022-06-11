@@ -1,0 +1,59 @@
+body {
+}
+
+#home-section {
+    background: url('./img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .container {
+    padding-top: 75px;
+}
+
+#home-section .dark-overlay {
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#home-section .bi::before {
+    background: #fff;
+    font-size: 48px;
+    border-radius: 5px;
+    margin: 0 30px;
+}
+
+#explore-and-connect-section .bi::before {
+    background: #333;
+    font-size: 48px;
+    border-radius: 5px;
+    margin: 0 30px;
+}
+
+#author-section img {
+    margin-top: -50px;
+}
+
+#connect-section {
+    min-height: 200px;
+    background-image: url('./img/create.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#connect-section .dark-overlay {
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+#staff-section .card:hover,
+#staff-section .card:hover .bi {
+    background: #3c88fa;
+    color: #fff !important;
+}
